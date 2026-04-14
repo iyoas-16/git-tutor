@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #4facfe, #00f2fe);
+    background: linear-gradient(to right, hsl(0, 5%, 91%), hsla(180, 50%, 98%, 0.99));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@ input {
 button {
     width: 100%;
     padding: 10px;
-    background: #4facfe;
+    background: #fe9e4f;
     color: white;
     border: none;
     border-radius: 5px;
@@ -34,7 +34,7 @@ button {
 }
 
 button:hover {
-    background: #00c6ff;
+    background: #d5e0e3;
 }
 
 #message {
